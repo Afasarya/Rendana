@@ -8,7 +8,6 @@ import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { CATEGORIES, formatCurrency, parseFormattedNumber } from '@/lib/constants';
-import { PropertyCost } from '@/lib/calculator';
 
 export function PropertyCosts() {
   const { control, register, watch, setValue } = useFormContext();

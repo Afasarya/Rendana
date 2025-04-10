@@ -18,7 +18,6 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(({
   addOn,
   prefixIcon,
   suffixIcon,
-  isCurrency = false,
   ...props
 }, ref) => {
   const inputStyles = `
